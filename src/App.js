@@ -1,20 +1,10 @@
-import Topbar from './components/topbar/Topbar'
-
-import Sidebar from './components/sidebar/Sidebar'
-
-import Share from './components/share/Share'
-
-import Post from './components/post/Post'
+import Home from "./pages/home/Home";
+import Login from "./pages/login/Login";
+import Profile from "./pages/profile/Profile";
+import Register from "./pages/register/Register";
 
 function App() {
-  return (
-    <div className="App">
-        <Topbar />
-        {/* <Sidebar /> */}
-        {/* <Share /> */}
-        <Post />
-    </div>
-  );
+  return <Login />;
 }
 
 export default App;
